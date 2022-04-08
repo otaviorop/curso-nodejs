@@ -12,7 +12,7 @@
   "author": "Otávio Reis <otaviorop@gmail.com>",
   "main": "./cli.js",
   "bin": {
-    "<curso_otavio>": "./cli.js"
+    "curso_otavio": "./cli.js"
   },
   "preferGlobal": true,
   "scripts": {
