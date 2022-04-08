@@ -1,0 +1,29 @@
+{
+  "name": "curso_otavio",
+  "version": "1.0.0",
+  "description": "Aprendendo a criar um projeto no npm",
+  "keywords": [
+    "curso",
+    "otavio",
+    "node"
+  ],
+  "homepage": "https://github.com/otaviorop",
+  "license": "ISC",
+  "author": "Otávio Reis <otaviorop@gmail.com>",
+  "main": "./cli.js",
+  "bin": {
+    "<curso_otavio>": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
